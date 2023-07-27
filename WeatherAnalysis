@@ -1,0 +1,5 @@
+import pandas as pd 
+import numpy as np 
+
+weatherData = pd.read_csv("storm_data_search_results.csv")
+weatherData.head()
